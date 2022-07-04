@@ -16,5 +16,9 @@ while i > 0:
 		break
 	else:
 		i = i - 1
-		print('Error password!', i ,'chance left! ')
+		print('Error password!')
+		if i > 0:
+			print( i ,'chance left!')
+		else:
+			print('No more chance!!!')
 		
